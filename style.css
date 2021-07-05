@@ -10,7 +10,6 @@ h1{
 }
 h2{
     font-size: 40px;
-    font-weight: ;
 }
 .orange-color{
     color: orange;
@@ -58,4 +57,41 @@ h2{
 }
 .section-bg-2 .section-divider:last-child{
     margin-top: 200px;
+}
+
+.experience-area{
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.section-flex-2{
+    padding: 0 5%;
+    display: flex;
+    margin-bottom: 80px;
+}
+.web-dev:first-child{
+    margin-right: 3%;
+}
+.web-dev:last-child{
+    margin-left: 3%;
+}
+
+.web-dev{
+    padding: 10px 30px 30px 40px;
+    box-shadow: 2px 6px 25px rgb(161, 160, 160);
+}
+#full-dev{
+    border-left: 8px solid;
+    border-image: linear-gradient(#FFA82E, #f75846);
+    border-image-slice: 1;
+}
+#baby-dev{
+    border-left: 8px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+    padding: 40px 0 20;
 }
