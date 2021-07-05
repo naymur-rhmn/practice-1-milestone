@@ -8,10 +8,14 @@ p{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+    font-weight: ;
+}
 .orange-color{
     color: orange;
 }
-.section-flex{
+.section-bg{
     background-image: url(./images/top-banner.png);
     background-position: top left;
     background-repeat: no-repeat;
@@ -23,6 +27,9 @@ h1{
 }
 .section-divider{
     width: 50%;
+}
+.section-divider img {
+    width: 100%;
 }
 .section-divider:first-child{
     padding-right: 7%;
@@ -41,4 +48,14 @@ h1{
 }
 .linear-btn:hover{
     background-image: linear-gradient(#FFB228, #F88366);
+}
+
+/*start dream big css */
+.section-bg-2{
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.section-bg-2 .section-divider:last-child{
+    margin-top: 200px;
 }
